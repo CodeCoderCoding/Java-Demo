@@ -36,6 +36,14 @@ public class Person {
         this.age=age;
     }
 
+    /**
+     * 构造方法的重载
+     * @param name
+     */
+    public Person(String name){
+        this(name,24,"black");//这个this指向第一个Person构造方法
+    }
+
     public String getName() {
         return this.name;
     }

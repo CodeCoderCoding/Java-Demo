@@ -1,18 +1,18 @@
 package BOOP.B4Inherit;
 
 public class Student extends Person{
-    private String major;
+    private double gpa;
 
-    public Student(String name, int age, String major){
+    public Student(String name, int age, double gpa){
         super(name, age);
-        this.major=major;
+        this.gpa=gpa;
     }
 
-    public String getMajor() {
-        return major;
+    public double getGpa() {
+        return gpa;
     }
 
-    public void setMajor(String major) {
-        this.major = major;
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
     }
 }
