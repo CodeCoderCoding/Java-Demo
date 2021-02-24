@@ -16,6 +16,6 @@ public class ReferenceMain {
 
         Person person3=new Person("name",24);
         Person person4=new Person("name",24);
-        System.out.println(person3=person4);//false，因为person3与person4引用不同的对象
+        System.out.println(person3==person4);//false，因为person3与person4引用不同的对象
     }
 }
