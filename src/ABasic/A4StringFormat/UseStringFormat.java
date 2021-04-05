@@ -1,4 +1,4 @@
-package ABasic;
+package ABasic.A4StringFormat;
 
 import java.util.Scanner;
 
