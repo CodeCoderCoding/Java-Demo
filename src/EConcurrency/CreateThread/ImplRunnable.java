@@ -1,4 +1,4 @@
-package EThread.CreateThread;
+package EConcurrency.CreateThread;
 
 public class ImplRunnable implements Runnable{
 

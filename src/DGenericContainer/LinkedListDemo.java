@@ -1,4 +1,4 @@
-package EContainer;
+package DGenericContainer;
 
 /**
  * @author supremepole
