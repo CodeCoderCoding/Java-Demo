@@ -1,11 +1,7 @@
-package ABasic.A4StringFormat;
-
-import java.util.Scanner;
+package ABasic.A4String;
 
 public class UseStringFormat {
     public static void main(String[] args){
-        
-
 
     }
 }
