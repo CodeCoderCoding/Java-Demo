@@ -3,6 +3,9 @@ package FDynamic.Proxy.AOP;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
+/**
+ * ExceptionAspect是一个切面，负责ServiceB的异常切面
+ */
 @Aspect({ ServiceB.class })
 public class ExceptionAspect {
 	public static void exception(Object object,
