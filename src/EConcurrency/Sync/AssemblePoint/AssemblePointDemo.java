@@ -1,5 +1,8 @@
 package EConcurrency.Sync.AssemblePoint;
 
+/**
+ * 使用集合点示例
+ */
 public class AssemblePointDemo {
 
 	static class Tourist extends Thread {

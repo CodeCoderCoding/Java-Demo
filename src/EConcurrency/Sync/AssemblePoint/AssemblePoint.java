@@ -1,5 +1,8 @@
 package EConcurrency.Sync.AssemblePoint;
 
+/**
+ * 模拟集合点
+ */
 public class AssemblePoint {
 
     private int n;
