@@ -11,7 +11,6 @@ public class StaticProxyDemo {
     }
 
     static class RealService implements IService {
-
         @Override
         public void HelloWorld() {
             System.out.println("hello");
