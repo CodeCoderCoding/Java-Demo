@@ -10,14 +10,14 @@ public class ThreadLocalBasic {
 		Thread child = new Thread() {
 			@Override
 			public void run() {
-				System.out.println("child thread initial: " + local.get());
+				System.out.println("子线程初始值: " + local.get());
 				local.set(200);
-				System.out.println("child thread final: " + local.get());
+				System.out.println("子线程最终值: " + local.get());
 			}
 		};
 		local.set(100);
 		child.start();
 		child.join();
-		System.out.println("main thread final: " + local.get());
+		System.out.println("主线程最终值: " + local.get());
 	}
 }
