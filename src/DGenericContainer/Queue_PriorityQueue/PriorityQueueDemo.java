@@ -1,4 +1,4 @@
-package DGenericContainer;
+package DGenericContainer.Queue_PriorityQueue;
 
 import java.util.PriorityQueue;
 

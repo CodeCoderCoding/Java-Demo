@@ -1,11 +1,11 @@
-package DGenericContainer;
+package DGenericContainer.Map_HashMap;
 
 import java.util.HashMap;
 
 /**
  * @author supremepole
  */
-public class TreeMapDemo {
+public class HashMapDemo {
     public static void main(String[] args) {
         HashMap<Integer, String> hashMap=new HashMap<Integer, String>();
         hashMap.put(1,"string1");

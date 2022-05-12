@@ -1,4 +1,4 @@
-package DGenericContainer;
+package DGenericContainer.List_LinkedList;
 
 /**
  * @author supremepole
