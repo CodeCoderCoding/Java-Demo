@@ -1,4 +1,4 @@
-package EConcurrency.Secure.ThreadLocal;
+package EConcurrency.ThreadLocal;
 
 /**
  * ThreadLocal基本使用

@@ -27,10 +27,12 @@ public class RemoveItem {
      * 错误
      */
     public static void removeWithFor(List<String> list, String target){
+        System.out.println(list.size());
         for(int i = 0; i < list.size(); i++){
             String item = list.get(i);
-            if(target.equals(item)){
+            if(item.equals(target)){
                 list.remove(item);
+                System.out.println(list.size());
             }
         }
     }

@@ -1,4 +1,4 @@
-package EConcurrency.Secure.ThreadLocal;
+package EConcurrency.ThreadLocal;
 
 import java.lang.reflect.Field;
 import java.util.concurrent.*;

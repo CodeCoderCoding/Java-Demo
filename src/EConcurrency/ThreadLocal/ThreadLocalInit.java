@@ -1,4 +1,4 @@
-package EConcurrency.Secure.ThreadLocal;
+package EConcurrency.ThreadLocal;
 
 public class ThreadLocalInit {
 	static ThreadLocal<Integer> local = new ThreadLocal<Integer>(){

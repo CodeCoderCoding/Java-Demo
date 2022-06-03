@@ -1,4 +1,4 @@
-package EConcurrency.Secure.Synchronized;
+package EConcurrency.Synchronized;
 
 /**
  * @author CodeCoderCoding
