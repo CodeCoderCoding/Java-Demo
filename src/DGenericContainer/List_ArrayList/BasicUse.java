@@ -1,6 +1,7 @@
 package DGenericContainer.List_ArrayList;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @ClassName BasicUse
@@ -11,6 +12,11 @@ import java.util.ArrayList;
  **/
 public class BasicUse {
     public static void main(String[] args) {
+        basicUse();
+        addNull();
+    }
+
+    public static void basicUse(){
         ArrayList<String> arrayList=new ArrayList<String>();
         arrayList.add("https://cs.supremepole.com/");
         arrayList.add("https://algorithm.supremepole.com/");
@@ -20,4 +26,11 @@ public class BasicUse {
         arrayList.set(0,"string0");//第1个参数为索引位置，第2个参数为要修改的值
         arrayList.size();//计算大小
     }
+
+    public static void addNull(){
+        List<String> list=new ArrayList<>();
+        list.add(null);
+        System.out.println(list.size());
+    }
+
 }
