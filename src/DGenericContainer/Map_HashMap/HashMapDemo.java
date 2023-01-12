@@ -1,6 +1,9 @@
 package DGenericContainer.Map_HashMap;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author supremepole
@@ -17,5 +20,23 @@ public class HashMapDemo {
         hashMap.clear();//删除所有的键值对
         hashMap.entrySet();//返回hashMap中所有映射项的集合视图
         hashMap.keySet();//返回hashMap中所有key组成的集合视图
+        keySet();
+        nullList();
+    }
+
+    public static void keySet(){
+        Map<String, String> map=new HashMap<>();
+        map.put("key1", "value1");
+        System.out.println(map.keySet());
+        map.keySet().forEach(k->{
+            System.out.println(k);
+        });
+    }
+
+    public static void nullList(){
+        List<String> list=new ArrayList<>();
+        String string=null;
+        list.add(string);
+        System.out.println(list.size());
     }
 }
