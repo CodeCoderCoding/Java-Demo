@@ -10,6 +10,12 @@ import java.util.Map;
  */
 public class HashMapDemo {
     public static void main(String[] args) {
+        basicUse();
+        keySet();
+        nullList();
+    }
+
+    public static void basicUse(){
         HashMap<Integer, String> hashMap=new HashMap<Integer, String>();
         hashMap.put(1,"string1");
         hashMap.put(2,"string2");
@@ -20,8 +26,6 @@ public class HashMapDemo {
         hashMap.clear();//删除所有的键值对
         hashMap.entrySet();//返回hashMap中所有映射项的集合视图
         hashMap.keySet();//返回hashMap中所有key组成的集合视图
-        keySet();
-        nullList();
     }
 
     public static void keySet(){
@@ -39,4 +43,5 @@ public class HashMapDemo {
         list.add(string);
         System.out.println(list.size());
     }
+
 }
