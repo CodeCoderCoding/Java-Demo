@@ -1,6 +1,6 @@
-package ABasic.A4String;
+package ABasic.A7Method;
 
-public class StringBufferBuilder {
+public class StringMethodReference {
     public static void main(String[] args) {
         stringMethod();
     }
