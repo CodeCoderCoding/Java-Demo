@@ -67,7 +67,7 @@ public class Person {
      */
     @Override
     public String toString() {
-        String string="name: "+name+", age: "+age+", eyeColor: "+eyeColor;
+        String string="hashCode: "+hashCode()+", name: "+name+", age: "+age+", eyeColor: "+eyeColor;
         return string;
     }
 }
