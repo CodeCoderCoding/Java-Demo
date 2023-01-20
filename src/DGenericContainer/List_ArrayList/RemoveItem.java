@@ -8,7 +8,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * @ClassName RemoveItem
  * @Description 移除ArrayList中的元素
- * @Author yuzhihua
+ * @Author CodeCoderCoding
  * @Date 2022/4/29 19:30
  * @Version 1.0.0
  **/
@@ -16,11 +16,11 @@ public class RemoveItem {
 
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<String>();
-        arrayList.add("https://cs.supremepole.com/");
-        arrayList.add("https://algorithm.supremepole.com/");
-        arrayList.add("https://interview.supremepole.com/");
+        arrayList.add("AAA");
+        arrayList.add("BBB");
+        arrayList.add("CCC");
         arrayList.add("target");
-        removeWithFor(arrayList, "target");
+        removeWithCopyOnWrite(arrayList, "target");
     }
 
     /*

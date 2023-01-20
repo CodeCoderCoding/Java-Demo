@@ -18,9 +18,9 @@ public class BasicUse {
 
     public static void basicUse(){
         ArrayList<String> arrayList=new ArrayList<String>();
-        arrayList.add("https://cs.supremepole.com/");
-        arrayList.add("https://algorithm.supremepole.com/");
-        arrayList.add("https://interview.supremepole.com/");
+        arrayList.add("AAA");
+        arrayList.add("BBB");
+        arrayList.add("CCC");
         arrayList.remove(1);//删除第2个元素
         arrayList.get(0);//访问第1个元素
         arrayList.set(0,"string0");//第1个参数为索引位置，第2个参数为要修改的值
