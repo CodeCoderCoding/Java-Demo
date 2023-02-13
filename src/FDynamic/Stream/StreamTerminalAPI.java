@@ -16,6 +16,7 @@ public class StreamTerminalAPI {
         max(personList);
     }
 
+    //找到年龄最大的人
     public static void max(List<Person> personList){
         Person person=personList.stream()
                 .max(Comparator.comparing(Person::getAge))

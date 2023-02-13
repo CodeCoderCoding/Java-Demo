@@ -15,8 +15,10 @@ public class StreamIntermediateAPI {
         );
         filter(personList);
         distinct(personList);
+        map(personList);
     }
 
+    //过滤出符合条件，person的age>18的人
     public static void filter(List<Person> personList){
         List<Person> list=personList.stream()
                 .filter(person->person.getAge()>18)
@@ -24,6 +26,7 @@ public class StreamIntermediateAPI {
         printList("filter:", list);
     }
 
+    //过滤不同的人
     public static void distinct(List<Person> personList){
         List<Person> list=personList.stream()
                 .distinct()
@@ -31,11 +34,21 @@ public class StreamIntermediateAPI {
         printList("distinct:", list);
     }
 
+    // 使用map，将List<Person>转换为person的名字List<String>
+    public static void map(List<Person> personList){
+        List<String> list=personList.stream()
+                .map(Person::getName)
+                .collect(Collectors.toList());
+        System.out.println("map: "+list);
+    }
+
+    // 打印personList中的内容
     public static void printList(String flag, List<Person> personList){
         System.out.println(flag);
         for(Person person:personList){
             System.out.println(person);
         }
+        System.out.println();
     }
 
 }
